@@ -20,9 +20,9 @@ describe('ListComponent', () => {
   let component: ListComponent;
   let fixture: ComponentFixture<ListComponent>;
   let deliveryService: DeliveryService;
-  
+
   const deliveriesMock: DeliveryModel[] = [
-    { id: '1', documento: '12134565609', motorista: {  nome: 'João Silva' }, cliente_origem: { nome: 'Origem 1',  endereco: "Rua dos Pinheiros, 789", bairro: 'Bairro 1', cidade: "São Paulo" }, cliente_destino: {  nome: 'Destino 1',  endereco: "Rua dos Pinheiros, 789", bairro: 'Bairro 2', cidade: "São Paulo" }, status_entrega: 'Pendente' },
+    { id: '1', documento: '12134565609', motorista: { nome: 'João Silva' }, cliente_origem: { nome: 'Origem 1', endereco: "Rua dos Pinheiros, 789", bairro: 'Bairro 1', cidade: "São Paulo" }, cliente_destino: { nome: 'Destino 1', endereco: "Rua dos Pinheiros, 789", bairro: 'Bairro 2', cidade: "São Paulo" }, status_entrega: 'Pendente' },
     { id: '2', documento: '23155867716', motorista: { nome: 'Maria Souza' }, cliente_origem: { nome: 'Origem 2', endereco: "Rua das Palmas, 789", bairro: 'Bairro 3', cidade: "São Paulo" }, cliente_destino: { nome: 'Destino 2', endereco: "Rua dos Coqueiros, 739", bairro: 'Bairro 4', cidade: "São Paulo" }, status_entrega: 'Entregue' }
   ];
 
