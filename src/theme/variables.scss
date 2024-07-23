@@ -1,0 +1,88 @@
+:root {
+  --color-brand-primary: #f2c809;
+  --color-brand-secondary: #1db8d3;
+  --color-brand-terciary: #305f8c;
+
+  --color-feedback-success-pure: #308812;
+  --color-feedback-success-dark: #2b7a10;
+  --color-feedback-success-light: #def9d4;
+  --color-feedback-error-pure: #cc3030;
+  --color-feedback-error-dark: #b82b2b;
+  --color-feedback-error-light: #ffe4e4;
+  --color-feedback-info-pure: #7530cc;
+  --color-feedback-info-dark: #692bb8;
+  --color-feedback-info-light: #f0e3ff;
+  --color-feedback-warning-pure: #ffc107;
+  --color-feedback-warning-dark: #f9d566;
+  --color-feedback-warning-light: #faedc4;
+  --color-neutral-light-pure: #ffffff;
+  --color-neutral-light-up: #f4f4f4;
+  --color-neutral-light-down: #eaeaea;
+  --color-neutral-medium: #c8c8c8;
+  --color-neutral-dark-up: #8e8e8e;
+  --color-neutral-dark-down: #3d3d3d;
+  --color-neutral-dark-pure: #121212;
+  --color-neutral-light:#FFFFFF;
+  --color-neutral-dark: #000000;
+
+  --border-radius-none: 0px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-pill: 80px;
+  --border-radius-circular: 100%;
+
+  --border-width-none: 0px;
+  --border-width-sm: 1px;
+  --border-width-md: 2px;
+  --border-width-lg: 4px;
+
+  --font-size-xxxs: 12px;
+  --font-size-xxs: 14px;
+  --font-size-xs: 16px;
+  --font-size-sm: 20px;
+  --font-size-md: 24px;
+  --font-size-lg: 32px;
+  --font-size-xl: 40px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 64px;
+  --font-size-display: 80px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  --line-height-default: 100%;
+  --line-height-tiny: 120%;
+  --line-height-small: 140%;
+  --line-height-medium: 150%;
+  --line-height-large: 170%;
+
+  --opacity-level-semiopaque: 0.8;
+  --opacity-level-intense: 0.64;
+  --opacity-level-medium: 0.4;
+  --opacity-level-light: 0.16;
+  --opacity-level-semitransparent: 0.08;
+
+  --shadow-small: 0px 4px 8px;
+  --shadow-medium: 0px 8px 16px;
+  --shadow-large: 0px 16px 32px;
+
+  // Espacamento base
+  --spacing-quarck: 4px;
+  --spacing-nano: 8px;
+  --spacing-xxxxs: 12px;
+  --spacing-xxxs: 16px;
+  --spacing-xxs: 24px;
+  --spacing-xs: 32px;
+  --spacing-sm: 40px;
+  --spacing-md: 48px;
+  --spacing-lg: 56px;
+  --spacing-xl: 64px;
+  --spacing-xxl: 80px;
+  --spacing-xxxl: 128px;
+  --spacing-huge: 160px;
+  --spacing-giant: 200px;
+}

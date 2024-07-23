@@ -1,0 +1,28 @@
+<div class="progress-delivery">
+    <h1>Andamento de entregas de cada motorista</h1>
+
+    <div class="mat-elevation-z8 mb-4">
+        <table mat-table [dataSource]="dataSource" matSort>
+            <!-- Motorista Column -->
+            <ng-container matColumnDef="motorista">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Motorista </th>
+                <td mat-cell *matCellDef="let row"> {{row.motorista}} </td>
+            </ng-container>
+    
+            <!-- Total Column -->
+            <ng-container matColumnDef="total">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Total Entregas </th>
+                <td mat-cell *matCellDef="let row"> {{row.total}} </td>
+            </ng-container>
+    
+            <!-- Realizado Column -->
+            <ng-container matColumnDef="realizado">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Entregas Realizadas </th>
+                <td mat-cell *matCellDef="let row"> {{row.realizado}} </td>
+            </ng-container>
+    
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+    </div>
+</div>
